@@ -1,0 +1,49 @@
+.contact {
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/images/background.svg');
+  background-size:cover;
+}
+
+.contact-content {
+  width: 100%;
+  height: var(--util-height);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content-txt {
+  width: 100%;
+  height: 100%;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-content-img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/images/contact.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.icon {
+  width: 25px;
+}
+
+@media (max-width: 700px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    }
+
+    .contact-content-img {
+      min-height: 40vh;
+      background-image: url('../../assets/images/contact-small.jpg');
+    }
+}
