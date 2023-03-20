@@ -8,18 +8,68 @@ export const menuItems = [
     url: '/qualidade',
   },
   {
-    title: 'Galvanização',
+    title: 'Tratamentos',
     url: '',
     subItems: [
       {
-        title: 'Serviço 1',
-        url: '/',
+        title: 'Alodine',
+        url: '/tratamentos/alodine',
+      },
+      {
+        title: 'Bissulfeto de Molibdênio',
+        url: '/tratamentos/bissulfeto',
+      },
+      {
+        title: 'Cádmio',
+        url: '/tratamentos/cadmio',
+      },
+      {
+        title: 'Estanho',
+        url: '/tratamentos/estanho',
+      },
+      {
+        title: 'Fosfatização',
+        url: '/tratamentos/fosfatizacao',
+      },
+      {
+        title: 'Níquel',
+        url: '/tratamentos/niquel',
+      },
+      {
+        title: 'Oxidação Negra',
+        url: '/tratamentos/oxidacao-negra',
+      },
+      {
+        title: 'Xylan',
+        url: '/tratamentos/xylan',
+      },
+      {
+        title: 'Zincagem Eletrolítica',
+        url: '/tratamentos/zincagem-eletrolitica',
+      },
+      {
+        title: 'Zinco Níquel',
+        url: '/tratamentos/zinco-niquel',
       },
     ],
   },
   {
-    title: 'Galvanização a Fogo',
+    title: 'Serviços',
     url: '',
+    subItems: [
+      {
+        title: 'Decapagem',
+        url: '/',
+      },
+      {
+        title: 'Desengraxe',
+        url: '/',
+      },
+      {
+        title: 'Jateamento',
+        url: '/',
+      },
+    ],
   },
   {
     title: 'Contato',

@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Contato from './components/Contato';
 import NotFound from './components/NotFound';
 import Qualidade from './components/Qualidade';
+import Tratamentos from './components/Tratamentos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/qualidade" element={<Qualidade />} />
-
+        <Route path="/tratamentos/:item" element={<Tratamentos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
