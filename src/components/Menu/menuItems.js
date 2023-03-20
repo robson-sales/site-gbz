@@ -5,7 +5,7 @@ export const menuItems = [
   },
   {
     title: 'Qualidade',
-    url: '/',
+    url: '/qualidade',
   },
   {
     title: 'Galvanização',

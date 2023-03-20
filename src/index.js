@@ -10,11 +10,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Contato from './components/Contato';
 import NotFound from './components/NotFound';
-import SolutionAws from './components/SolutionAws';
-import SolutionGcp from './components/SolutionGCP';
-import SolutionGW from './components/SolutionGoogleWork';
-import Websites from './components/ProdWebsites';
-import Email from './components/ProdEmail';
+import Qualidade from './components/Qualidade';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,15 +20,9 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quem-somos" element={<QuemSomos />} />
-        <Route path="/solucoes-nuvem/gcp" element={<SolutionGcp />} />
-        <Route path="/solucoes-nuvem/aws" element={<SolutionAws />} />
-        <Route
-          path="/solucoes-nuvem/google-workplace"
-          element={<SolutionGW />}
-        />
+        <Route path="/qualidade" element={<Qualidade />} />
+
         <Route path="/contato" element={<Contato />} />
-        <Route path="/servicos/websites" element={<Websites />} />
-        <Route path="/servicos/email" element={<Email />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
