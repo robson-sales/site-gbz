@@ -2,6 +2,8 @@ import alodine from '../../assets/images/alodine.jpg';
 import bissulfeto from '../../assets/images/bissulfeto.jpg';
 import cadmio from '../../assets/images/cadmio.jpg';
 import estanho from '../../assets/images/estanho.jpg';
+import fosfatizacao from '../../assets/images/fosfatizacao.jpg';
+import niquel from '../../assets/images/niquel.jpg';
 
 export function getTratamento(item) {
   const tratamentosItems = [
@@ -48,6 +50,31 @@ export function getTratamento(item) {
         'Além disso, o banho com estanho brilhante confere um aspecto estético às peças, pois proporciona um acabamento uniforme e brilhante.',
       ],
       image: estanho,
+    },
+    {
+      route: 'fosfatizacao',
+      title: 'Fosfatização',
+      description: [
+        'O tratamento de superfície de fosfatização é um processo que transforma uma superfície metálica em uma superfície com uma fina camada de fosfato metálico.',
+        'O objetivo desse tratamento é proteger o metal da oxidação e da corrosão, também conhecidas como ferrugem e desgaste.',
+        'O tratamento também serve como base para um acabamento posterior por pintura ou impregnação de óleos protetivos, melhorando a adesão e a resistência da tinta ao metal.',
+        'O tratamento pode ser feito por imersão ou aspersão, dependendo do tipo e do tamanho da peça metálica.',
+        'Existem diferentes tipos de fosfatização, como a fosfatização de zinco, a fosfatização de manganês e a fosfatização orgânica.',
+        'Cada tipo tem suas vantagens e desvantagens, dependendo da aplicação e das exigências ambientais.',
+      ],
+      image: fosfatizacao,
+    },
+    {
+      route: 'niquel',
+      title: 'Níquel',
+      description: [
+        'O tratamento de superfície de níquel é uma técnica que visa melhorar as propriedades de peças metálicas, como resistência à corrosão, abrasão e desgaste. Existem dois principais tipos de tratamento de superfície de níquel:',
+        'O tratamento a nível químico, usado com banhos em elementos químicos como por exemplo, sulfato de níquel e o hipofosfito de sódio. Esse tipo de tratamento é autocatalítico, ou seja, não precisa de corrente elétrica para ocorrer.',
+        'O tratamento eletrolítico, usado com um tratamento a base de uma corrente elétrica de alta potência1. Esse tipo de tratamento permite controlar a espessura e a composição do revestimento de níquel.',
+        'Algumas aplicações do tratamento de superfície de níquel são: peças para indústrias petrolíferas, químicas e alimentícias, equipamentos mecânicos, peças automóveis e motocicletas e peças para instrumentos médicos e odontológicos',
+        'Alguns benefícios do tratamento de superfície de níquel são: aumento da durabilidade e da vida útil das peças metálicas, melhoria da estética e do brilho das peças metálicas e proteção contra oxidação e corrosão das peças metálicas',
+      ],
+      image: niquel,
     },
   ];
 
