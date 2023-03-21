@@ -1,4 +1,4 @@
-import '../../Styles/solutionStyle.css';
+import '../../Styles/pageStyle.css';
 import certificado1 from '../../assets/images/iqnet-certificate.PNG';
 import certificado2 from '../../assets/images/apcer-certificate.PNG';
 

@@ -1,4 +1,4 @@
-import '../../Styles/solutionStyle.css';
+import '../../Styles/pageStyle.css';
 import historia from '../../assets/images/gb-historia.jpg';
 import lab from '../../assets/images/Lab01.jpg';
 

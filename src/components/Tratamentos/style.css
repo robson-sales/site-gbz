@@ -25,6 +25,7 @@
 
 .service-content-txt p {
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .service-content-img {

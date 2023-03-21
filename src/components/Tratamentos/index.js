@@ -1,5 +1,3 @@
-/* eslint-disable global-require */
-/* eslint-disable import/no-dynamic-require */
 import { useParams } from 'react-router-dom';
 import './style.css';
 import { getTratamento } from './tratamentosItems';
