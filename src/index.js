@@ -23,6 +23,7 @@ root.render(
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/qualidade" element={<Qualidade />} />
         <Route path="/tratamentos/:item" element={<Tratamentos />} />
+        <Route path="/servicos/:item" element={<Tratamentos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

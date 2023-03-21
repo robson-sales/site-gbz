@@ -48,6 +48,10 @@ export const menuItems = [
         url: '/tratamentos/zincagem-eletrolitica',
       },
       {
+        title: 'Zincagem a Fogo',
+        url: '/tratamentos/zincagem-fogo',
+      },
+      {
         title: 'Zinco Níquel',
         url: '/tratamentos/zinco-niquel',
       },
@@ -59,15 +63,15 @@ export const menuItems = [
     subItems: [
       {
         title: 'Decapagem',
-        url: '/',
+        url: '/servicos/decapagem',
       },
       {
         title: 'Desengraxe',
-        url: '/',
+        url: '/servicos/desengraxe',
       },
       {
         title: 'Jateamento',
-        url: '/',
+        url: '/servicos/jateamento',
       },
     ],
   },

@@ -27,6 +27,7 @@
   font-weight: 600;
   font-size: 3rem;
   color: white;
+  text-shadow: 5px 5px 9px var(--font-color);
 }
 
 button {

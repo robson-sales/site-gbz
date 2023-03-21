@@ -4,6 +4,11 @@ import cadmio from '../../assets/images/cadmio.jpg';
 import estanho from '../../assets/images/estanho.jpg';
 import fosfatizacao from '../../assets/images/fosfatizacao.jpg';
 import niquel from '../../assets/images/niquel.jpg';
+import oxidacao from '../../assets/images/oxidacao.jpg';
+import xylan from '../../assets/images/xylan.jpg';
+import zincagemEletrolitica from '../../assets/images/zincagem-eletrolitica.jpg';
+import zincagemFogo from '../../assets/images/zinco-fogo.jpg';
+import zincoNiquel from '../../assets/images/zinco-niquel.jpg';
 
 export function getTratamento(item) {
   const tratamentosItems = [
@@ -27,7 +32,7 @@ export function getTratamento(item) {
         'Os benefícios do tratamento de superfície com bissulfeto de molibdênio são: redução do coeficiente de atrito e do desgaste entre as superfícies em contato, aumento da resistência à corrosão e à oxidação, melhoria da estabilidade térmica e da condutividade elétrica e possibilidade de operar em condições extremas de temperatura, pressão e umidade.',
         'Aplicação em diversos setores industriais, como automotivo, aeroespacial, mecânico, elétrico e médico.',
       ],
-      image: bissulfeto,
+      image: bissulfeto, // Trocar foto
     },
     {
       route: 'cadmio',
@@ -38,7 +43,7 @@ export function getTratamento(item) {
         'O tratamento de superfície com cádmio é aplicável em especial em peças do segmento petroquímico, como parafusos, porcas, arruelas e tubos, mas também pode ser usado em outras indústrias que requerem alta durabilidade e proteção contra ambientes agressivos.',
         'Os benefícios do tratamento de superfície com cádmio são: proteger as peças metálicas da oxidação, corrosão galvânica e abrasão; melhorar a soldabilidade, a lubrificação e a aderência de tintas; reduzir o atrito e o desgaste; aumentar a vida útil das peças.',
       ],
-      image: cadmio,
+      image: cadmio, // Trocar foto
     },
     {
       route: 'estanho',
@@ -49,7 +54,7 @@ export function getTratamento(item) {
         'O banho com estanho brilhante é indicado para peças técnicas, principalmente da indústria eletroeletrônica, que necessitam de excelente condutividade elétrica e resistência à corrosão.',
         'Além disso, o banho com estanho brilhante confere um aspecto estético às peças, pois proporciona um acabamento uniforme e brilhante.',
       ],
-      image: estanho,
+      image: estanho, // Trocar foto
     },
     {
       route: 'fosfatizacao',
@@ -74,7 +79,57 @@ export function getTratamento(item) {
         'Algumas aplicações do tratamento de superfície de níquel são: peças para indústrias petrolíferas, químicas e alimentícias, equipamentos mecânicos, peças automóveis e motocicletas e peças para instrumentos médicos e odontológicos',
         'Alguns benefícios do tratamento de superfície de níquel são: aumento da durabilidade e da vida útil das peças metálicas, melhoria da estética e do brilho das peças metálicas e proteção contra oxidação e corrosão das peças metálicas',
       ],
-      image: niquel,
+      image: niquel, // Trocar foto
+    },
+    {
+      route: 'oxidacao-negra',
+      title: 'Oxidação Negra',
+      description: [
+        'O tratamento de superfície de oxidação negra é um tipo de revestimento resultante da conversão da camada exterior do metal ferroso através de um tratamento químico. Também chamada de escurecimento ou enegrecimento, a oxidação negra garante resistência contra a corrosão (para situações não tão exigentes) além de deixar o material com uma bela aparência.',
+        'Aqui estão alguns benefícios do tratamento de superfície de oxidação negra: resistência à corrosão e abrasão leve, não altera significamente a dimensão do fixador, já que a camada possui espessura fina, garante uma aparência bonita ao material, é uma alternativa mais barata em relação a outros métodos de proteção contra a corrosão. O processo pode ser realizado em grandes quantidades, reduzindo custos.',
+      ],
+      image: oxidacao, // Trocar foto
+    },
+    {
+      route: 'xylan',
+      title: 'Xylan',
+      description: [
+        'O Xylan é um tratamento de superfície que contém PTFE ou outros tipos de lubrificantes e é aplicado em filmes finos. Ele fornece lubrificação e fricção controlada, resistência ao desgaste, resistência ao calor, propriedades antiaderentes e de liberação e, ao mesmo tempo, também pode proteger contra corrosão.',
+        'Os revestimentos Xylan podem ser a solução ideal para os problemas que surgem quando o material especificado pela engenharia de produto não tem a superfície adequada. Peças manufaturadas com materiais com excelente resistência, peso e baixo custo podem corroer, agarrar ou aderir. Os revestimentos Xylan são projetados para oferecer as propriedades necessárias a cada tipo específico de superfície. Eles oferecem lubrificação e atrito controlados, resistência ao desgaste e ao cator, antiaderência, podendo ao mesmo tempo proteger contra corrosão.',
+        'Aqui estão alguns benefícios do tratamento de superfície Xylan: lubrificação e fricção controlada, resistência ao desgaste, resistência ao calor, propriedades antiaderentes e de liberação e proteção contra corrosão.',
+      ],
+      image: xylan, // Trocar foto
+    },
+    {
+      route: 'zincagem-eletrolitica',
+      title: 'Zincagem Eletrolitica',
+      description: [
+        'A zincagem eletrolítica é um tratamento de superfície de metal ferroso ou não ferroso, com amplo uso em diversos segmentos do mercado. A técnica confere maior resistência às peças e consequente aumento de sua vida útil.',
+        'A aplicação da zincagem eletrolítica é feita por meio da eletrólise, que é a decomposição de uma camada de zinco sobre a superfície da peça. A camada de zinco depositada nas peças é selada com um conjunto de substâncias químicas conhecido como passivadores, aumentando o seu poder de resistência à oxidação.',
+        'Os processos de tratamento superficial de zincagem eletrolítica trivalente conhecidos são a cromatização transparente trivalente branco ou azul, a cromatização amarela e cromatização preta, que podem ser feitas com ou sem selante. Assim, as peças adquirem alta resistência tanto à corrosão branca quanto à corrosão vermelha.',
+      ],
+      image: zincagemEletrolitica,
+    },
+    {
+      route: 'zincagem-fogo',
+      title: 'Zincagem a Fogo',
+      description: [
+        'A zincagem a fogo, também chamada de galvanização a fogo, é um processo de revestimento realizado por meio da aplicação de zinco sobre uma superfície de ferro ou aço, agregando um alto poder de resistência a corrosões e evitando a perda de ferro ou oxidação, por conta disso.',
+        'O processo de zincagem a fogo produz uma série de benefícios, como: prolonga a vida útil das peças de aço, fornece uma camada protetora entre o aço e a atmosfera, evita a formação de óxido de ferro na superfície do aço, propicia à peça resistência à corrosão ao ser exposta às ações do tempo e propicia vida útil extensa à estrutura tratada.',
+        'O processo de zincagem a fogo busca agregar as propriedades do zinco no material de destino e sendo assim, mudar suas propriedades para maior adequação ao ambiente de utilização como, em indústrias que lidam com altas temperaturas e necessitam de objetos e peças que suportem esses tipos de condições climáticas, por exemplo.',
+        'O processo de zincagem a fogo é composto por algumas etapas, como: desengraxe, lavagem, decapagem, lavagem, fluxagem, secagem e imersão a quente ou "Zincagem a quente".',
+      ],
+      image: zincagemFogo,
+    },
+    {
+      route: 'zinco-niquel',
+      title: 'Zinco Níquel',
+      description: [
+        'O tratamento de superfície chamado zinco níquel é um processo de revestimento que consiste em aplicar uma camada de zinco e níquel em uma superfície metálica. Esse processo é realizado por meio de banhos eletrolíticos, que são capazes de depositar uma camada uniforme de zinco e níquel na superfície da peça. O processo de execução do tratamento de superfície chamado zinco níquel é composto por várias etapas, que incluem a limpeza da superfície da peça, a aplicação do banho eletrolítico, a secagem e a inspeção final da peça.',
+        'A aplicação do tratamento de superfície chamado zinco níquel é ampla e pode ser utilizada em diversos tipos de peças metálicas, como aços, bronze, latão, alumínio e outros. Com o tratamento, a durabilidade e resistência do material será elevada, evitando oxidação, corrosão e outros problemas que podem surgir e danificar suas peças.',
+        'Os benefícios do tratamento de superfície chamado zinco níquel incluem a alta capacidade de prevenir a corrosão de outros materiais, sendo assim utilizado como solução para revestimentos, podendo ser aplicado à diferentes peças metálicas. As camadas produzidas por este material são totalmente isentas de tensões e são capazes de oferecer um acabamento perfeito.',
+      ],
+      image: zincoNiquel, // Trocar foto
     },
   ];
 
