@@ -1,20 +1,20 @@
-.contact {
+.qualidade {
   align-items: center;
   justify-content: center;
   background-image: url('../../assets/images/background.svg');
   background-size:cover;
 }
 
-.contact-content {
+.qualidade-content {
   width: 100%;
-  height: var(--util-height);
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
 
-.contact-content-txt {
+.qualidade-content-txt {
   width: 100%;
   height: 100%;
   padding: 6rem;
@@ -23,12 +23,16 @@
   justify-content: center;
 }
 
-.contact-content-img {
+.qualidade-content-txt p {
+  margin-bottom: 15px;
+}
+
+.qualidade-content-img {
   width: 100%;
   height: 100%;
   align-items: center;
   justify-content: center;
-  background-image: url('../../assets/images/laboratorio.jpg');
+  background-image: url('../../assets/images/certificado.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -38,13 +42,13 @@
 }
 
 @media (max-width: 700px) {
-  .contact-content {
+  .qualidade-content {
     width: 100%;
     height: auto;
     grid-template-columns: 1fr;
     }
 
-    .contact-content-img {
+    .qualidade-content-img {
       min-height: 40vh;
     }
 }

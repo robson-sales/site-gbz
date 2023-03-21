@@ -1,19 +1,15 @@
-import '../../Styles/pageStyle.css';
-import historia from '../../assets/images/gb-historia.jpg';
-import lab from '../../assets/images/Lab01.jpg';
+import './style.css';
 
-export default function QuemSomos() {
+export default function Contato() {
   return (
     <>
-      <div className="section-gw">
-        <div className="section-gw-content">
-          <div className="section-gw-content-img">
-            <img src={historia} alt="Logotipo da AWS" />
-          </div>
-          <div className="section-gw-content-txt">
+      <div className="qs">
+        <div className="qs-content">
+          <div className="qs-content-img"></div>
+          <div className="qs-content-txt">
             <h2>Nossa história</h2>
             <br />
-            <h3>Proteção e qualidade para o seu metal desde 1986</h3>
+            <h4>Proteção e qualidade para o seu metal desde 1986</h4>
             <br />
             <p>
               A GB Zincagem é uma empresa de galvanoplastia que existe desde
@@ -41,15 +37,6 @@ export default function QuemSomos() {
               Certificações e Licenças de Órgãos Públicos e Sistema de Gestão de
               Qualidade certificado com base na norma NBR ISO 9001.
             </p>
-          </div>
-        </div>
-      </div>
-      <div className="section-gw">
-        <div className="section-gw-content">
-          <div className="section-gw-content-img">
-            <img src={lab} alt="Logotipo da AWS" />
-          </div>
-          <div className="section-gw-content-txt">
             <p>
               Possuímos todos os Certificados e Licenças requeridas para o total
               funcionamento, e também temos uma Central de Tratamento de

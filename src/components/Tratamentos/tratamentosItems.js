@@ -9,6 +9,9 @@ import xylan from '../../assets/images/xylan.jpg';
 import zincagemEletrolitica from '../../assets/images/zincagem-eletrolitica.jpg';
 import zincagemFogo from '../../assets/images/zinco-fogo.jpg';
 import zincoNiquel from '../../assets/images/zinco-niquel.jpg';
+import decapagem from '../../assets/images/decapagem.jpg';
+import desengraxe from '../../assets/images/desengraxe.jpg';
+import jateamento from '../../assets/images/jateamento.jpg';
 
 export function getTratamento(item) {
   const tratamentosItems = [
@@ -130,6 +133,34 @@ export function getTratamento(item) {
         'Os benefícios do tratamento de superfície chamado zinco níquel incluem a alta capacidade de prevenir a corrosão de outros materiais, sendo assim utilizado como solução para revestimentos, podendo ser aplicado à diferentes peças metálicas. As camadas produzidas por este material são totalmente isentas de tensões e são capazes de oferecer um acabamento perfeito.',
       ],
       image: zincoNiquel, // Trocar foto
+    },
+    {
+      route: 'decapagem',
+      title: 'Decapagem',
+      description: [
+        'O serviço de decapagem é um processo de remoção de impurezas e oxidação em superfícies metálicas. Esse processo é essencial para a indústria, pois a produção de certas peças só é possível com esse procedimento. A decapagem química é um dos tipos de decapagem que utiliza reagentes químicos com composições específicas para cada tipo de metal produto que se deseja decapar.',
+        'A decapagem possibilita que a extração de sujidades e óxidos sejam completa e possa receber o tratamento de passivação química ou eletropolimento para proteger a superfície.',
+      ],
+      image: decapagem,
+    },
+    {
+      route: 'desengraxe',
+      title: 'Desengraxe',
+      description: [
+        'Desengraxe é um processo que consiste em remover, de um determinado substrato, sujidades inerentes às etapas anteriores do processo produtivo, na maioria das vezes, orgânicas, como óleos, graxas, ceras, resto de pastas de estampagem. E, se for o caso, sujidades inorgânicas como cavacos ou sais provenientes de processos anteriores.',
+        'Desengraxantes são compostos químicos e formulações essenciais a muitos processos industriais, como um prelúdio ao acabamento de superfície ou a componentes de proteção ou revestimento, nos processos genericamente chamados de desengraxe.',
+        'O processo de desengraxe pode ser feito com limpeza com solventes secos, detergentes de limpeza alcalinos a quente, eletrolimpeza e ataque ácido. A norma ASTM B322 é um guia para a limpeza de metais antes de galvanoplastia.',
+      ],
+      image: desengraxe,
+    },
+    {
+      route: 'jateamento',
+      title: 'Jateamento',
+      description: [
+        'O jateamento é uma técnica de tratamento superficial por impacto, o qual se pode obter um excelente grau de limpeza e simultaneamente um correto acabamento superficial. Basicamente, podemos dizer que o jateamento serve para limpeza e aderência, ou seja, a remoção de todas as impurezas da área, evitando formação de oxidação nas peças.',
+        'Algumas das principais aplicações dos serviços de jateamento são: Reformas em aço no geral; Remoção de ferrugem, tintas velhas e carepa de laminação; Decapagem mecânica de arames, barras, chapas, etc; entre outros.',
+      ],
+      image: jateamento,
     },
   ];
 

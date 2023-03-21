@@ -9,9 +9,15 @@ export default function Contato() {
           <div className="contact-content-txt">
             <h2>Contato</h2>
             <br />
-            <p>Descubra como podemos ajudar a potencializar seu negócio.</p>
+            <p>
+              <strong>
+                Descubra como podemos ajudar a potencializar seu negócio.
+              </strong>
+            </p>
             <br />
             <p>
+              🗺️
+              <br />
               Rua João Santana Leite, 100
               <br />
               Campo da Vila - Santana de Parnaíba - SP

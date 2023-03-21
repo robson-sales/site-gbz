@@ -22,12 +22,15 @@
 
 .text-over-left {
   position: absolute;
-  top: 5rem;
-  left: 5rem;
+  top: 7rem;
+  left: 4rem;
   font-weight: 600;
   font-size: 3rem;
+  text-shadow: 4px 4px 6px var(--blue-beek);
+}
+
+.text-over-left h1, h2 {
   color: white;
-  text-shadow: 5px 5px 9px var(--font-color);
 }
 
 button {
@@ -62,7 +65,7 @@ button:hover{
 
 @media (max-width: 700px) {
   .text-over-left {
-    top: 3rem;
+    top: 5rem;
     left: 3rem;
     font-size: 1.7rem;
   }

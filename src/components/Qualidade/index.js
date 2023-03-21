@@ -1,19 +1,15 @@
-import '../../Styles/pageStyle.css';
-import certificado1 from '../../assets/images/iqnet-certificate.PNG';
-import certificado2 from '../../assets/images/apcer-certificate.PNG';
+import './style.css';
 
-export default function Qualidade() {
+export default function Contato() {
   return (
     <>
-      <div className="section-gw">
-        <div className="section-gw-content">
-          <div className="section-gw-content-img">
-            <img src={certificado1} alt="Logotipo da AWS" />
-          </div>
-          <div className="section-gw-content-txt">
+      <div className="qualidade">
+        <div className="qualidade-content">
+          <div className="qualidade-content-img"></div>
+          <div className="qualidade-content-txt">
             <h2>Qualidade</h2>
             <br />
-            <h3> Somos certificados ISO 9001</h3>
+            <h4> Somos certificados ISO 9001</h4>
             <br />
             <p>
               O processo de qualidade é fundamental para qualquer empresa que
@@ -35,15 +31,6 @@ export default function Qualidade() {
               qualidade, que atendam às especificações exigidas pelos setores em
               que ele atua.
             </p>
-          </div>
-        </div>
-      </div>
-      <div className="section-gw">
-        <div className="section-gw-content">
-          <div className="section-gw-content-img">
-            <img src={certificado2} alt="Logotipo da AWS" />
-          </div>
-          <div className="section-gw-content-txt">
             <p>
               Através do nosso sistema de gestão da qualidade, monitoramos
               continuamente nossos processos, identificando pontos fracos e

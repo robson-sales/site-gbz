@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className="banner">
       <div className="text-over-left">
+        <h1> GB Zincagem</h1>
         <h2>
-          GB Zincagem
           <br />
           <br />
           Experiência e qualidade em
@@ -25,6 +25,7 @@ export default function Home() {
           <br />
           metais, transformam vidas.
         </h2>
+        <br />
         <br />
         <br />
         <button type="submit" onClick={handleContact}>
