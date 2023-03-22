@@ -1,4 +1,5 @@
 import './style.css';
+import certificateEn from '../../assets/docs/GB Zincagem - ISO 9001.2015 - en.pdf';
 
 export default function Contato() {
   return (
@@ -52,10 +53,23 @@ export default function Contato() {
             </p>
             <p>
               <strong>
-                Se você quer proteger seus metais da corrosão com eficiência e
-                economia, nos podemos te ajuda.
+                Somos homologados nos padrões PETROBRAS, Eólicas, Aéreas e
+                Solar.
               </strong>
             </p>
+            <div>
+              <div className="certificate-download">
+                <a href={certificateEn} download="Certificado EN">
+                  Baixar nosso certificado (EN)
+                </a>
+              </div>
+              <br />
+              <div className="certificate-download">
+                <a href={certificateEn} download="Certificado PT-BR">
+                  Baixar nosso certificado (PT-BR)
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

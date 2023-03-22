@@ -1,3 +1,9 @@
+import {
+  BsWhatsapp,
+  BsTelephoneFill,
+  BsMailbox,
+  BsFillPinMapFill,
+} from 'react-icons/bs';
 import './style.css';
 
 export default function Contato() {
@@ -14,26 +20,38 @@ export default function Contato() {
                 Descubra como podemos ajudar a potencializar seu negócio.
               </strong>
             </p>
-            <br />
-            <p>
-              🗺️
-              <br />
-              Rua João Santana Leite, 100
-              <br />
-              Campo da Vila - Santana de Parnaíba - SP
-            </p>
-            <br />
-            <p>
-              ☎️ <br />
-              (11) 3199-3787 / 3199-3788
-              <br />
-              <br />
-              ✉️
-              <br />
-              <a href="mailto:contato@gb.ind.br">contato@gb.ind.br</a>
-              <br />
-              <a href="mailto:comercial@gb.ind.br">comercial@gb.ind.br</a>
-            </p>
+            <div className="contact-data">
+              <div className="contact-item">
+                <div className="contact-ico">
+                  <BsTelephoneFill />
+                </div>
+                <div className="contact-info">(11) 3199-3787 / 3199-3788</div>
+              </div>
+              <div className="contact-item">
+                <div className="contact-ico">
+                  <BsWhatsapp />
+                </div>
+                <div className="contact-info">(11) 9999-1234</div>
+              </div>
+              <div className="contact-item">
+                <div className="contact-ico">
+                  <BsMailbox />
+                </div>
+                <div className="contact-info">
+                  <a href="mailto:contato@gb.ind.br">contato@gb.ind.br</a>
+                  <a href="mailto:comercial@gb.ind.br">comercial@gb.ind.br</a>
+                </div>
+              </div>
+              <div className="contact-item">
+                <div className="contact-ico">
+                  <BsFillPinMapFill />
+                </div>
+                <div className="contact-info">
+                  Rua João Santana Leite, 100 Campo da Vila - Santana de
+                  Parnaíba - SP
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
