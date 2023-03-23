@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: center;
   height: 4rem;
-  background-color: var(--blue-beek);
+  background-color: var(--primary-color);
   border-radius: 5px;
 }
 

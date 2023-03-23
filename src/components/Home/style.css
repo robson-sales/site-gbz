@@ -26,13 +26,13 @@
   left: 4rem;
   font-weight: 600;
   font-size: 3rem;
-  text-shadow: 4px 4px 6px var(--blue-beek);
+  text-shadow: 4px 4px 6px var(--primary-color);
 }
 
 button {
   width: 300px;
   height: 40px;
-  background-color: var(--blue-beek);
+  background-color: var(--primary-color);
   border: none;
   border-radius: 10px;
   font-family: 'League Spartan', sans-serif;

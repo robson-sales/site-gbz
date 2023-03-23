@@ -7,8 +7,8 @@
   --lateral-menu: 270px;
   --footer-height: 3rem;
   --util-height: calc(100vh - var(--menu-height) - var(--footer-height));
-  --blue-beek: #088551;
-  --gray-beek: #6C6C6F;
+  --primary-color: #088551;
+  --secondary-color: #6C6C6F;
   --menu-color: white;
   --font-color: grey;
 }
@@ -34,5 +34,5 @@ body {
 }
 
 h1, h2 {
-  color: var(--blue-beek);
+  color: var(--primary-color);
 }

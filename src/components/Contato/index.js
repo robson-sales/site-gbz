@@ -3,6 +3,9 @@ import {
   BsTelephoneFill,
   BsMailbox,
   BsFillPinMapFill,
+  BsLinkedin,
+  BsInstagram,
+  BsFacebook,
 } from 'react-icons/bs';
 import './style.css';
 
@@ -33,7 +36,11 @@ export default function Contato() {
                   <BsWhatsapp />
                 </div>
                 <div className="contact-info">
-                  <a href="https://api.whatsapp.com/send?phone=5511972065931">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511972065931"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     (11) 97206-5931
                   </a>
                 </div>
@@ -69,6 +76,29 @@ export default function Contato() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
+              </div>
+              <div className="contact-social">
+                <a
+                  href="https://www.linkedin.com/company/galvanoplastiabarueri/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsLinkedin />
+                </a>
+                <a
+                  href="https://www.instagram.com/gbzincagem/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsInstagram />
+                </a>
+                <a
+                  href="https://www.facebook.com/gbzincagem"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsFacebook />
+                </a>
               </div>
             </div>
           </div>
