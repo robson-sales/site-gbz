@@ -20,6 +20,7 @@ export default function Contato() {
                 Descubra como podemos ajudar a potencializar seu negócio.
               </strong>
             </p>
+            <br />
             <div className="contact-data">
               <div className="contact-item">
                 <div className="contact-ico">
@@ -39,6 +40,7 @@ export default function Contato() {
                 </div>
                 <div className="contact-info">
                   <a href="mailto:contato@gb.ind.br">contato@gb.ind.br</a>
+                  <br />
                   <a href="mailto:comercial@gb.ind.br">comercial@gb.ind.br</a>
                 </div>
               </div>
@@ -47,9 +49,22 @@ export default function Contato() {
                   <BsFillPinMapFill />
                 </div>
                 <div className="contact-info">
-                  Rua João Santana Leite, 100 Campo da Vila - Santana de
-                  Parnaíba - SP
+                  Rua João Santana Leite, 100
+                  <br />
+                  Campo da Vila
+                  <br />
+                  Santana de Parnaíba - SP
+                  <br />
+                  CEP: 06501-238
+                  <br />
                 </div>
+              </div>
+              <div className="contact-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14642.27110747452!2d-46.917929!3d-23.4399757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0397dc265b5b%3A0xe75bd48052406042!2sGB%20Zincagem%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1679577843744!5m2!1spt-BR!2sbr"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

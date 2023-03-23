@@ -25,10 +25,7 @@
 
 .qs-content-txt p {
   margin-bottom: 15px;
-}
-
-.qs-content-txt h2 {
-  color: var(--blue-beek);
+  text-align: justify;
 }
 
 .qs-content-img {

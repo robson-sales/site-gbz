@@ -42,6 +42,17 @@
   grid-template-columns: 1fr 4fr;
   align-items: center;
   justify-content: center;
+  padding: 5px;
+}
+
+.contact-map {
+  width: auto;
+  height: auto;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 220px;
 }
 
 @media (max-width: 700px) {
@@ -54,4 +65,6 @@
     .contact-content-img {
       min-height: 40vh;
     }
+
+
 }

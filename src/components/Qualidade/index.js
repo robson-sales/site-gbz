@@ -60,13 +60,13 @@ export default function Contato() {
             <div>
               <div className="certificate-download">
                 <a href={certificateEn} download="Certificado EN">
-                  Baixar nosso certificado (EN)
+                  Baixar Certificado (EN)
                 </a>
               </div>
               <br />
               <div className="certificate-download">
                 <a href={certificateEn} download="Certificado PT-BR">
-                  Baixar nosso certificado (PT-BR)
+                  Baixar Certificado (PT-BR)
                 </a>
               </div>
             </div>
