@@ -24,6 +24,30 @@ export default function Contato() {
               </strong>
             </p>
             <br />
+            <div className="contact-social">
+              <p>Nossas redes sociais:</p>
+              <a
+                href="https://www.linkedin.com/company/galvanoplastiabarueri/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsLinkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/gbzincagem/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsInstagram />
+              </a>
+              <a
+                href="https://www.facebook.com/gbzincagem"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsFacebook />
+              </a>
+            </div>
             <div className="contact-data">
               <div className="contact-item">
                 <div className="contact-ico">
@@ -76,29 +100,6 @@ export default function Contato() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
-              </div>
-              <div className="contact-social">
-                <a
-                  href="https://www.linkedin.com/company/galvanoplastiabarueri/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsLinkedin />
-                </a>
-                <a
-                  href="https://www.instagram.com/gbzincagem/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsInstagram />
-                </a>
-                <a
-                  href="https://www.facebook.com/gbzincagem"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsFacebook />
-                </a>
               </div>
             </div>
           </div>
