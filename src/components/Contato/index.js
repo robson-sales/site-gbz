@@ -32,7 +32,11 @@ export default function Contato() {
                 <div className="contact-ico">
                   <BsWhatsapp />
                 </div>
-                <div className="contact-info">(11) 9999-1234</div>
+                <div className="contact-info">
+                  <a href="https://api.whatsapp.com/send?phone=5511972065931">
+                    (11) 97206-5931
+                  </a>
+                </div>
               </div>
               <div className="contact-item">
                 <div className="contact-ico">
