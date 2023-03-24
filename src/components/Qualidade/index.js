@@ -1,5 +1,6 @@
 import './style.css';
 import certificateEn from '../../assets/docs/GB Zincagem - ISO 9001.2015 - en.pdf';
+import certificatePt from '../../assets/docs/GB Zincagem - ISO 9001.2015 - pt-br.pdf';
 
 export default function Contato() {
   return (
@@ -65,7 +66,7 @@ export default function Contato() {
               </div>
               <br />
               <div className="certificate-download">
-                <a href={certificateEn} download="Certificado PT-BR">
+                <a href={certificatePt} download="Certificado PT-BR">
                   Baixar Certificado (PT-BR)
                 </a>
               </div>
