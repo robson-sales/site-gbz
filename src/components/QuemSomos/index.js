@@ -12,29 +12,41 @@ export default function Contato() {
             <h4>Proteção e qualidade para o seu metal desde 1986</h4>
             <br />
             <p>
-              Com muitos anos de mercado atuante em galvanoplastia. Somos
-              especialistas em tratamentos protetivos.
+              Com muitos anos de mercado atuante em galvanoplastia, sempre
+              aprimorando nossos banhos e tecnologias de controles e afins.
+              Somos referência em tratamentos protetivos. Atendemos aos
+              segmentos:
             </p>
+
+            <ul>
+              <li>Eólico (onshore e offshore)</li>
+              <li>Solar</li>
+              <li>Aéreo</li>
+              <li>Óleo e gás</li>
+              <li>Construção civil</li>
+              <li>Fixadores</li>
+              <li>Linha branca</li>
+              <li>Eletro-nuclear</li>
+              <li>Petrolífera</li>
+              <li>Telecomunicações</li>
+            </ul>
 
             <p>
-              Auditada, certificada e homologada nos segmentos: eólico (on shore
-              e offshore), solar, aéreo, óleo e gás, construção civil,
-              fixadores, linha branca, eletro nuclear, petrolífera e
-              telecomunicações.
+              Homologada pelos principais players de mercado, trabalhamos com os
+              melhores fornecedores em matérias-primas e em processos e
+              tecnologias em equipamentos. Possuímos um contingente altamente
+              treinado, controle laboratorial (próprio), com as Certificações e
+              Licenças de Órgãos Públicos e Sistema de Gestão de Qualidade
+              certificado com base na norma NBR ISO 9001.
             </p>
-
-            <p>
-              Atuamos com os melhores fornecedores do mercado, tanto em
-              matérias-primas, quanto em processos e tecnologias, possuímos um
-              contingente altamente treinado, controle laboratorial, com as
-              Certificações e Licenças de Órgãos Públicos e Sistema de Gestão de
-              Qualidade certificado com base na norma NBR ISO 9001.
-            </p>
-
             <p>
               Possuímos todos os Certificados e Licenças requeridas para o total
-              funcionamento, e também temos uma Central de Tratamento de
-              Efluentes, conforme padrões da Cetesb.
+              funcionamento dentro de todos os cuidados com o meio ambiente e
+              controles governamentais.
+            </p>
+            <p>
+              Nossa Central de Tratamento de Efluentes conta com total estrutura
+              homologada pelos padrões da Cetesb.
             </p>
           </div>
         </div>

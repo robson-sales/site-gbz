@@ -47,10 +47,10 @@ export default function Contato() {
               programa de capacitação.
             </p>
             <p>
-              Possuímos um laboratório químico completo, para a realização de
-              análises periódicas em nossos banhos, ensaios de corrosão (Salt
-              Spray) e emissão de Certificados de Qualidade, Controle gráfico de
-              Desidrogenização.
+              Possuímos um laboratório químico completo, para realização de
+              análises (químicas e físico-química), para a análises periódicas
+              em nossos banhos, ensaios de corrosão (Salt Spray), emissão de
+              certificados de qualidade e controle gráfico de desidrogenização.
             </p>
             <p>
               <strong>
