@@ -7,6 +7,8 @@ import {
   BsInstagram,
   BsFacebook,
 } from 'react-icons/bs';
+import 'react-gallery-carousel/dist/index.css';
+import CarrosselContato from './Carrossel';
 import './style.css';
 
 export default function Contato() {
@@ -14,7 +16,9 @@ export default function Contato() {
     <>
       <div className="contact">
         <div className="contact-content">
-          <div className="contact-content-img"></div>
+          <div className="contact-content-img">
+            <CarrosselContato />
+          </div>
           <div className="contact-content-txt">
             <h2>Contato</h2>
             <br />

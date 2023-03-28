@@ -7,7 +7,7 @@
 
 .contact-content {
   width: 100%;
-  height: var(--util-height);
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -16,7 +16,7 @@
 
 .contact-content-txt {
   width: 100%;
-  height: 100%;
+  height: var(--util-height);
   padding: 6rem;
   display: flex;
   flex-direction: column;
@@ -25,12 +25,16 @@
 
 .contact-content-img {
   width: 100%;
-  height: 100%;
+  height: var(--util-height);
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../assets/images/escritorio.jpg');
-  background-size: cover;
-  background-position: center;
+  overflow:hidden;
+}
+
+.contact-content-img:nth-child(2){
+  width: auto;
+  height: var(--util-height);
 }
 
 .icon {
@@ -76,15 +80,30 @@
 }
 
 @media (max-width: 700px) {
-  .contact-content {
-    width: 100%;
-    height: auto;
-    grid-template-columns: 1fr;
+    .contact-content {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
     }
-
+    
+    .contact-content-txt {
+      width: 100%;
+      height: auto;
+      padding: 6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
     .contact-content-img {
-      min-height: 40vh;
-    }
-
-
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow:hidden;
+    } 
 }
