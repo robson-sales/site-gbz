@@ -71,9 +71,8 @@
   }
 
   .banner {
-    background-image: url('../../assets/images/background.png');
-  }
-  
+    background-image: url('../../assets/images/background-small.png');
+  }  
 
   .banner-img img {
     height: 100%;

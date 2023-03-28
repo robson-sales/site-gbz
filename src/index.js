@@ -12,6 +12,7 @@ import Contato from './components/Contato';
 import NotFound from './components/NotFound';
 import Qualidade from './components/Qualidade';
 import Tratamentos from './components/Tratamentos';
+import Whatsapp from './components/Whatsapp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +29,7 @@ root.render(
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <Whatsapp />
     </HashRouter>
   </React.StrictMode>
 );
