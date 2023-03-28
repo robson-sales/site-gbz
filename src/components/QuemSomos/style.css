@@ -1,22 +1,20 @@
 .qs {
   align-items: center;
   justify-content: center;
-  background-image: url('../../assets/images/background.svg');
-  background-size:cover;
 }
 
 .qs-content {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .qs-content-txt {
   width: 100%;
-  height: 100%;
+  min-height: var(--util-height);
   padding: 6rem;
   display: flex;
   flex-direction: column;

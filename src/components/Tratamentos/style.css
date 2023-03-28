@@ -1,8 +1,6 @@
 .service {
   align-items: center;
   justify-content: center;
-  background-image: url('../../assets/images/background.svg');
-  background-size:cover;
 }
 
 .service-content {

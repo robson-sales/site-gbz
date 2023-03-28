@@ -17,7 +17,6 @@ export default function Contato() {
               Somos referência em tratamentos protetivos. Atendemos aos
               segmentos:
             </p>
-
             <ul>
               <li>Eólico (onshore e offshore)</li>
               <li>Solar</li>
@@ -30,7 +29,6 @@ export default function Contato() {
               <li>Petrolífera</li>
               <li>Telecomunicações</li>
             </ul>
-
             <p>
               Homologada pelos principais players de mercado, trabalhamos com os
               melhores fornecedores em matérias-primas e em processos e
@@ -42,11 +40,8 @@ export default function Contato() {
             <p>
               Possuímos todos os Certificados e Licenças requeridas para o total
               funcionamento dentro de todos os cuidados com o meio ambiente e
-              controles governamentais.
-            </p>
-            <p>
-              Nossa Central de Tratamento de Efluentes conta com total estrutura
-              homologada pelos padrões da Cetesb.
+              controles governamentais. Nossa Central de Tratamento de Efluentes
+              conta com total estrutura homologada pelos padrões da Cetesb.
             </p>
           </div>
         </div>

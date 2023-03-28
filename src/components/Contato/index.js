@@ -61,7 +61,7 @@ export default function Contato() {
               </div>
               <div className="contact-item">
                 <div className="contact-ico">
-                  <BsWhatsapp />
+                  <BsWhatsapp style={{ color: 'green' }} />
                 </div>
                 <div className="contact-info">
                   <a

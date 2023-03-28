@@ -1,8 +1,6 @@
 .contact {
   align-items: center;
   justify-content: center;
-  background-image: url('../../assets/images/background.svg');
-  background-size:cover;
 }
 
 .contact-content {
@@ -10,13 +8,13 @@
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .contact-content-txt {
   width: 100%;
-  height: var(--util-height);
+  min-height: var(--util-height);
   padding: 6rem;
   display: flex;
   flex-direction: column;
@@ -25,7 +23,7 @@
 
 .contact-content-img {
   width: 100%;
-  height: var(--util-height);
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
