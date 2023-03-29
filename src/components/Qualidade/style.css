@@ -4,6 +4,8 @@
 }
 
 .qualidade-content {
+  width: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: flex-start;
@@ -12,7 +14,7 @@
 
 .qualidade-content-txt {
   width: 100%;
-  min-height: var(--util-height);
+  height: 100%;
   padding: 6rem;
   display: flex;
   flex-direction: column;
@@ -28,14 +30,14 @@
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   overflow:hidden;
 }
 
-.qualidade-content-img:nth-child(2){
-  width: auto;
-  min-height: 100%;
+.qualidade-content-img div:nth-child(1) {
+  width: 100%;
+  max-height: var(--util-height);
 }
 
 .icon {

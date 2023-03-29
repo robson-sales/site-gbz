@@ -30,9 +30,9 @@
   overflow:hidden;
 }
 
-.contact-content-img:nth-child(2){
-  width: auto;
-  height: var(--util-height);
+.contact-content-img + div {
+  width: 100%;
+  min-height: var(--util-height);
 }
 
 .icon {
