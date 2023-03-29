@@ -58,4 +58,8 @@
       height: auto;
       width: 100%;
     }
+
+    .service-content-txt {
+      padding: 4rem;
+    }
 }

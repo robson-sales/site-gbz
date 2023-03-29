@@ -89,7 +89,7 @@
   .qualidade-content-txt {
     width: 100%;
     height: auto;
-    padding: 6rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,4 +103,9 @@
     justify-content: center;
     overflow:hidden;
   } 
+
+  .qualidade-content-img div:nth-child(1) {
+    width: 100%;
+    height: auto;
+  }
 }

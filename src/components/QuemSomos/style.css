@@ -15,7 +15,7 @@
 .qs-content-txt {
   width: 100%;
   min-height: var(--util-height);
-  padding: 6rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
