@@ -28,6 +28,7 @@
 .qs-txt {
   width: 50%;
   padding: 6rem;
+  overflow: scroll;
 }
 
 .qs-txt p {

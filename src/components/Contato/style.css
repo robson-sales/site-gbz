@@ -22,6 +22,7 @@
 .contact-txt {
   width: 50%;
   padding: 6rem;
+  overflow: scroll;
 }
 
 .contact-txt p {

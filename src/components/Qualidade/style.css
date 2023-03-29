@@ -22,6 +22,7 @@
 .qualidade-txt {
   width: 50%;
   padding: 6rem;
+  overflow: scroll;
 }
 
 .qualidade-txt p {
