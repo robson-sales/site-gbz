@@ -21,18 +21,26 @@
   justify-content: flex-start;
 }
 
+.contact-content-txt h2, h4 {
+  margin-bottom: 10px;
+}
+
+.contact-content-txt p {
+  margin-bottom: 10px;
+}
+
 .contact-content-img {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   overflow:hidden;
 }
 
-.contact-content-img + div {
+.contact-content-img div:nth-child(1) {
   width: 100%;
-  min-height: var(--util-height);
+  max-height: var(--util-height);
 }
 
 .icon {
@@ -45,6 +53,7 @@
   align-items: center;
   justify-content: center;
   padding: 5px;
+  margin-bottom: 10px;
 }
 
 .contact-map {

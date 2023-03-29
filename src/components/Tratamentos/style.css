@@ -8,7 +8,7 @@
   min-height: var(--util-height);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -28,7 +28,7 @@
 
 .service-content-img {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
   height: var(--util-height);

@@ -8,14 +8,11 @@ export default function Contato() {
           <div className="qs-content-img"></div>
           <div className="qs-content-txt">
             <h2>Nossa história</h2>
-            <br />
             <h4>Proteção e qualidade para o seu metal desde 1986</h4>
-            <br />
             <p>
               Com muitos anos de mercado atuante em galvanoplastia, sempre
-              aprimorando nossos banhos e tecnologias de controles e afins.
-              Somos referência em tratamentos protetivos. Atendemos aos
-              segmentos:
+              aprimorando nossos banhos e tecnologias de controles. Somos
+              referência em tratamentos protetivos. Atendemos aos segmentos:
             </p>
             <ul>
               <li>Eólico (onshore e offshore)</li>
@@ -31,16 +28,16 @@ export default function Contato() {
             </ul>
             <p>
               Homologada pelos principais players de mercado, trabalhamos com os
-              melhores fornecedores em matérias-primas e em processos e
+              melhores fornecedores em matérias-primas, em processos e
               tecnologias em equipamentos. Possuímos um contingente altamente
-              treinado, controle laboratorial (próprio), com as Certificações e
-              Licenças de Órgãos Públicos e Sistema de Gestão de Qualidade
+              treinado, controle laboratorial (próprio), com as certificações e
+              licenças de órgãos públicos e sistema de gestão de qualidade
               certificado com base na norma NBR ISO 9001.
             </p>
             <p>
-              Possuímos todos os Certificados e Licenças requeridas para o total
+              Possuímos todos os certificados e licenças requeridas para o total
               funcionamento dentro de todos os cuidados com o meio ambiente e
-              controles governamentais. Nossa Central de Tratamento de Efluentes
+              controles governamentais. Nossa central de tratamento de efluentes
               conta com total estrutura homologada pelos padrões da Cetesb.
             </p>
           </div>

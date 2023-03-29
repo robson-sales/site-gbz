@@ -21,13 +21,11 @@ export default function Contato() {
           </div>
           <div className="contact-content-txt">
             <h2>Contato</h2>
-            <br />
             <p>
               <strong>
                 Descubra como podemos ajudar a potencializar seu negócio.
               </strong>
             </p>
-            <br />
             <div className="contact-social">
               <p>Nossas redes sociais:</p>
               <a
@@ -88,14 +86,9 @@ export default function Contato() {
                   <BsFillPinMapFill />
                 </div>
                 <div className="contact-info">
-                  Rua João Santana Leite, 100
+                  Rua João Santana Leite, 100 - Campo da Vila
                   <br />
-                  Campo da Vila
-                  <br />
-                  Santana de Parnaíba - SP
-                  <br />
-                  CEP: 06501-238
-                  <br />
+                  Santana de Parnaíba - SP - CEP: 06501-238
                 </div>
               </div>
               <div className="contact-map">
