@@ -8,6 +8,7 @@ export default function Whatsapp() {
         href="https://api.whatsapp.com/send?phone=5511972065931"
         target="_blank"
         rel="noreferrer"
+        aria-label="Link para acessar nosso WhatsApp de contato"
       >
         <BsWhatsapp style={{ color: 'white' }} />
       </a>

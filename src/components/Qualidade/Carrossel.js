@@ -11,15 +11,16 @@ import laboratorio7 from '../../assets/images/laboratorio-07.jpg';
 import laboratorio8 from '../../assets/images/laboratorio-08.jpg';
 
 export default function CarrosselQualidade() {
+  const altTxt = 'Fotos do nosso laboratório';
   const images = [
-    { src: laboratorio1 },
-    { src: laboratorio2 },
-    { src: laboratorio3 },
-    { src: laboratorio4 },
-    { src: laboratorio5 },
-    { src: laboratorio6 },
-    { src: laboratorio7 },
-    { src: laboratorio8 },
+    { src: laboratorio1, alt: altTxt },
+    { src: laboratorio2, alt: altTxt },
+    { src: laboratorio3, alt: altTxt },
+    { src: laboratorio4, alt: altTxt },
+    { src: laboratorio5, alt: altTxt },
+    { src: laboratorio6, alt: altTxt },
+    { src: laboratorio7, alt: altTxt },
+    { src: laboratorio8, alt: altTxt },
   ];
 
   return (

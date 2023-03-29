@@ -31,6 +31,7 @@ export default function Contato() {
               href="https://www.linkedin.com/company/galvanoplastiabarueri/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Link para nosso LinkedIn"
             >
               <BsLinkedin />
             </a>
@@ -38,6 +39,7 @@ export default function Contato() {
               href="https://www.instagram.com/gbzincagem/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Link para nosso Instagram"
             >
               <BsInstagram />
             </a>
@@ -45,6 +47,7 @@ export default function Contato() {
               href="https://www.facebook.com/gbzincagem"
               target="_blank"
               rel="noreferrer"
+              aria-label="Link para nosso Facebook"
             >
               <BsFacebook />
             </a>
@@ -65,6 +68,7 @@ export default function Contato() {
                   href="https://api.whatsapp.com/send?phone=5511972065931"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Link para nosso WhatsApp"
                 >
                   (11) 97206-5931
                 </a>
@@ -95,6 +99,7 @@ export default function Contato() {
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14642.27110747452!2d-46.917929!3d-23.4399757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0397dc265b5b%3A0xe75bd48052406042!2sGB%20Zincagem%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1679577843744!5m2!1spt-BR!2sbr"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Localização da GB Zincagem no Google Maps"
               ></iframe>
             </div>
           </div>
