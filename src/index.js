@@ -10,9 +10,9 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Contato from './components/Contato';
 import NotFound from './components/NotFound';
-import Qualidade from './components/Qualidade';
 import Tratamentos from './components/Tratamentos';
 import Whatsapp from './components/Whatsapp';
+import Qualidade from './components/Qualidade';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
