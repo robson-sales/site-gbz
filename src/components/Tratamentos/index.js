@@ -8,18 +8,16 @@ export default function Tratamentos() {
 
   return (
     <>
-      <div className="service">
-        <div className="service-content">
-          <div className="service-content-img">
-            <img src={tratamento.image} alt="Imagem do tratamento" />
-          </div>
-          <div className="service-content-txt">
-            <h1>{tratamento.title}</h1>
-            <br />
-            {tratamento.description.map((paragrafo, index) => (
-              <p key={index}>{paragrafo}</p>
-            ))}
-          </div>
+      <div className="service-container">
+        <div className="service-img">
+          <img src={tratamento.image} alt="Imagem do tratamento" />
+        </div>
+        <div className="service-txt">
+          <h1>{tratamento.title}</h1>
+          <br />
+          {tratamento.description.map((paragrafo, index) => (
+            <p key={index}>{paragrafo}</p>
+          ))}
         </div>
       </div>
     </>
