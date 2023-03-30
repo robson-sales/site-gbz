@@ -29,13 +29,19 @@ export function getTratamento(item) {
       route: 'bissulfeto',
       title: 'Bissulfeto de Molibdênio',
       description: [
-        'O bissulfeto de molibdênio (MoS2) é um composto químico formado por dois átomos de enxofre e um átomo de molibdênio. Ele tem uma estrutura cristalina em camadas que lhe confere propriedades lubrificantes e antiaderentes.',
-        'O tratamento de superfície com bissulfeto de molibdênio consiste em aplicar uma camada fina desse composto sobre um material metálico ou não metálico para melhorar suas características tribológicas, ou seja, relacionadas ao atrito, desgaste e lubrificação.',
-        'O tratamento de superfície com bissulfeto de molibdênio pode ser feito por diferentes métodos, como pulverização térmica, deposição química a vapor, imersão a quente ou revestimento por fricção.',
-        'Os benefícios do tratamento de superfície com bissulfeto de molibdênio são: redução do coeficiente de atrito e do desgaste entre as superfícies em contato, aumento da resistência à corrosão e à oxidação, melhoria da estabilidade térmica e da condutividade elétrica e possibilidade de operar em condições extremas de temperatura, pressão e umidade.',
-        'Aplicação em diversos setores industriais, como automotivo, aeroespacial, mecânico, elétrico e médico.',
+        'O bissulfeto de molibdênio (MoS2) é um composto químico formado por dois átomos de enxofre e um átomo de molibdênio, com adição de resinas altamente aderentes, resistentes a produtos químicos e altas temperaturas.',
+        'Este tipo de tratamento proporciona uma boa lubricidade e grande proteção anticorrosiva, prevenindo contra emperramentos.',
+        'Aplicações nos setores:',
+        '• Aeroespacial',
+        '• Automotivo',
+        '• Alimentício',
+        '• Têxtil',
+        '• Máquinas e equipamentos',
+        '• Petroquímico e Petrolífero',
+        '• Plásticos',
+        '• Siderurgia e Mineração',
       ],
-      image: bissulfeto, // Trocar foto
+      image: bissulfeto,
     },
     {
       route: 'cadmio',
@@ -46,7 +52,7 @@ export function getTratamento(item) {
         'O tratamento de superfície com cádmio é aplicável em especial em peças do segmento petroquímico, como parafusos, porcas, arruelas e tubos, mas também pode ser usado em outras indústrias que requerem alta durabilidade e proteção contra ambientes agressivos.',
         'Processo com grande aplicação na indústria aeroespacial. Seu grande ponto forte é resistência à baixas temperaturas como -50ºC.',
       ],
-      image: cadmio, // Trocar foto
+      image: cadmio,
     },
     {
       route: 'estanho',
@@ -57,7 +63,7 @@ export function getTratamento(item) {
         'O banho com estanho brilhante é indicado para peças técnicas, principalmente da indústria eletroeletrônica, que necessitam de excelente condutividade elétrica e resistência à corrosão.',
         'Além disso, o banho com estanho brilhante confere um aspecto estético às peças, pois proporciona um acabamento uniforme e brilhante.',
       ],
-      image: estanho, // Trocar foto
+      image: estanho,
     },
     {
       route: 'fosfatizacao',
@@ -81,7 +87,7 @@ export function getTratamento(item) {
         'Algumas aplicações do tratamento de superfície de níquel são: peças para indústrias petrolíferas, químicas e alimentícias, equipamentos mecânicos, peças automóveis e motocicletas e peças para instrumentos médicos e odontológicos',
         'Alguns benefícios do tratamento de superfície de níquel são: aumento da durabilidade e da vida útil das peças metálicas, melhoria da estética e do brilho das peças metálicas e proteção contra oxidação e corrosão das peças metálicas',
       ],
-      image: niquel, // Trocar foto
+      image: niquel,
     },
     {
       route: 'oxidacao-negra',
@@ -90,16 +96,21 @@ export function getTratamento(item) {
         'O tratamento de superfície de oxidação negra é um tipo de revestimento resultante da conversão da camada exterior do metal ferroso através de um tratamento químico. Também chamada de escurecimento ou enegrecimento, a oxidação negra garante resistência contra a corrosão (para situações não tão exigentes) além de deixar o material com uma bela aparência.',
         'Aqui estão alguns benefícios do tratamento de superfície de oxidação negra: resistência à corrosão e abrasão leve, não altera significantemente a dimensão do fixador, já que a camada possui espessura fina, garante uma aparência bonita ao material, é uma alternativa mais barata em relação a outros métodos de proteção contra a corrosão. O processo pode ser realizado em grandes quantidades, reduzindo custos.',
       ],
-      image: oxidacao, // Trocar foto
+      image: oxidacao,
     },
     {
       route: 'xylan',
       title: 'Xylan',
       description: [
-        'O Xylan é um tratamento de superfície que contém PTFE ou outros tipos de lubrificantes e é aplicado em filmes finos. Ele fornece lubrificação e fricção controlada, resistência ao desgaste, resistência ao calor, propriedades antiaderentes e de liberação e, ao mesmo tempo, também pode proteger contra corrosão.',
-        'Peças manufaturadas com materiais com excelente resistência, peso e baixo custo podem corroer, agarrar ou aderir. Os revestimentos Xylan são projetados para oferecer as propriedades necessárias a cada tipo específico de superfície. Eles oferecem lubrificação e atrito controlados, resistência ao desgaste e ao cator, antiaderência, podendo ao mesmo tempo proteger contra corrosão.',
+        'Revestimento de Xylan® são uma família de fluoporímeros desenvolvidos para o uso em diversos tipos de componentes OEM e fixadores para previvir a corrosão e aumentar a vida do produto.',
+        'A maioria dos revestimentos de Xylan® contém PTFE ou outros tipos de lubrificantes, e são aplicados em filmes finos.',
+        'As propriedades dos revestimentos de Xylan são:',
+        '• Lubrificação e controle de atrito',
+        '• Resistencia ao desgaste',
+        '• Propriedades antiaderentes e de remoção do fixador',
+        '• Proteção contra corrosão',
       ],
-      image: xylan, // Trocar foto
+      image: xylan,
     },
     {
       route: 'zincagem-eletrolitica',
@@ -132,7 +143,7 @@ export function getTratamento(item) {
         'Os benefícios do tratamento de superfície chamado zinco níquel incluem a alta capacidade de prevenir a corrosão de outros materiais, sendo assim utilizado como solução para revestimentos, podendo ser aplicado à diferentes peças metálicas. As camadas produzidas por este material são totalmente isentas de tensões e são capazes de oferecer um acabamento perfeito.',
         'Trabalhamos com  zinco niquel branco, bicromatizado e preto. Atendemos todas as normas e ligas vigentes, como por exemplo: Ex ASTM B-841, Ligas 5 a 8% Ni, Ligas de 8 a 12%  Ni e Ligas de 12 a 16% Ni.',
       ],
-      image: zincoNiquel, // Trocar foto
+      image: zincoNiquel,
     },
     {
       route: 'decapagem',
