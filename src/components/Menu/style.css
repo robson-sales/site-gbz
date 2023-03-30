@@ -162,11 +162,11 @@ navbar
   }
 
   .menu-item {
-    padding: 12px 20px;
+    padding: 5px 20px;
   }
 
   .submenu-list {
-    top: 65px;
+    top: 45px;
     width: var(--lateral-menu);
   }
 }
