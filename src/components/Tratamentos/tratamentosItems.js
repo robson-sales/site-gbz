@@ -74,7 +74,7 @@ export function getTratamento(item) {
     },
     {
       route: 'niquel',
-      title: 'Níquel',
+      title: 'Níquel Químico',
       description: [
         'O tratamento de superfície de níquel é uma técnica que visa melhorar as propriedades de peças metálicas, como resistência à corrosão, abrasão e desgaste.',
         'O tratamento a nível químico, usado com banhos em elementos químicos como por exemplo, sulfato de níquel e o hipofosfito de sódio. Esse tipo de tratamento é autocatalítico, ou seja, não precisa de corrente elétrica para ocorrer. Trabalhamos com niquel com baixo, médio e alto fósforo.',

@@ -32,7 +32,7 @@ export const menuItems = [
         url: '/tratamentos/fosfatizacao',
       },
       {
-        title: 'Níquel',
+        title: 'Níquel Químico',
         url: '/tratamentos/niquel',
       },
       {
