@@ -1,4 +1,4 @@
-import fachada from '../../assets/images/home-banner.jpg';
+import fachada from '../../assets/images/home-banner.webp';
 
 import './style.css';
 

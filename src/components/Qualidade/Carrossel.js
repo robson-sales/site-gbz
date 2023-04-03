@@ -1,14 +1,14 @@
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 
-import laboratorio1 from '../../assets/images/laboratorio-01.jpg';
-import laboratorio2 from '../../assets/images/laboratorio-02.jpg';
-import laboratorio3 from '../../assets/images/laboratorio-03.jpg';
-import laboratorio4 from '../../assets/images/laboratorio-04.jpg';
-import laboratorio5 from '../../assets/images/laboratorio-05.jpg';
-import laboratorio6 from '../../assets/images/laboratorio-06.jpg';
-import laboratorio7 from '../../assets/images/laboratorio-07.jpg';
-import laboratorio8 from '../../assets/images/laboratorio-08.jpg';
+import laboratorio1 from '../../assets/images/laboratorio-01.webp';
+import laboratorio2 from '../../assets/images/laboratorio-02.webp';
+import laboratorio3 from '../../assets/images/laboratorio-03.webp';
+import laboratorio4 from '../../assets/images/laboratorio-04.webp';
+import laboratorio5 from '../../assets/images/laboratorio-05.webp';
+import laboratorio6 from '../../assets/images/laboratorio-06.webp';
+import laboratorio7 from '../../assets/images/laboratorio-07.webp';
+import laboratorio8 from '../../assets/images/laboratorio-08.webp';
 
 export default function CarrosselQualidade() {
   const altTxt = 'Fotos do nosso laboratório';
