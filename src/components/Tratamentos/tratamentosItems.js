@@ -48,7 +48,7 @@ export function getTratamento(item) {
       title: 'Cádmio',
       description: [
         'O tratamento de superfície com cádmio é um processo de revestimento de peças metálicas com uma camada fina de cádmio para aumentar sua resistência e prevenção contra a corrosão.',
-        'O cádmio é um metal branco-prateado que tem boa condutividade elétrica e térmica, baixo ponto de fusão e alta resistência à fadiga. Nós trabalhamos com cádmio incolor, bricromatizado e verde oliva.',
+        'O cádmio é um metal branco-prateado que tem boa condutividade elétrica e térmica, baixo ponto de fusão e alta resistência à fadiga. Nós trabalhamos com cádmio incolor, bicromatizado e verde oliva.',
         'O tratamento de superfície com cádmio é aplicável em especial em peças do segmento petroquímico, como parafusos, porcas, arruelas e tubos, mas também pode ser usado em outras indústrias que requerem alta durabilidade e proteção contra ambientes agressivos.',
         'Processo com grande aplicação na indústria aeroespacial. Seu grande ponto forte é resistência à baixas temperaturas como -50ºC.',
       ],
@@ -117,7 +117,7 @@ export function getTratamento(item) {
       title: 'Zincagem Eletrolitica',
       description: [
         'A zincagem eletrolítica é um tratamento de superfície de metal ferroso ou não ferroso, com amplo uso em diversos segmentos do mercado. A técnica confere maior resistência às peças e consequente aumento de sua vida útil.',
-        'A aplicação da zincagem eletrolítica é feita por meio da eletrólise, que é a decomposição de uma camada de zinco sobre a superfície da peça. A camada de zinco depositada nas peças é selada com um conjunto de substâncias químicas conhecido como passivadores, aumentando o seu poder de resistência à oxidação.',
+        'A aplicação da zincagem eletrolítica é feita por meio da eletrólise, que é a deposição de uma camada de zinco sobre a superfície da peça. A camada de zinco depositada nas peças é selada com um conjunto de substâncias químicas conhecido como passivadores, aumentando o seu poder de resistência à oxidação.',
         'Os processos de tratamento superficial de zincagem eletrolítica trivalente conhecidos são a cromatização transparente trivalente branco ou azul, a cromatização amarela e cromatização preta e a cromatização verde oliva que podem ser feitas com ou sem selante. Assim, as peças adquirem alta resistência tanto à corrosão branca quanto à corrosão vermelha.',
       ],
       image: zincagemEletrolitica,
