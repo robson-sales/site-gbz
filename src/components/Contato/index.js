@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import {
   BsWhatsapp,
   BsTelephoneFill,
@@ -12,6 +13,10 @@ import CarrosselContato from './Carrossel';
 import './style.css';
 
 export default function Contato() {
+  useEffect(() => {
+    document.title = 'GB Zincagem | Contato';
+  }, []);
+
   return (
     <>
       <div className="contact-container">

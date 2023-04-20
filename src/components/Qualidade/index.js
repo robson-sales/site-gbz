@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import './style.css';
 import certificateEn from '../../assets/docs/GB Zincagem - ISO 9001.2015 - en.pdf';
 import certificatePt from '../../assets/docs/GB Zincagem - ISO 9001.2015 - pt-br.pdf';
 import CarrosselQualidade from './Carrossel';
 
 export default function Qualidade() {
+  useEffect(() => {
+    document.title = 'GB Zincagem | Qualidade';
+  }, []);
+
   return (
     <>
       <div className="qualidade-container">

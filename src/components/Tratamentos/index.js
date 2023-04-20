@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './style.css';
 import { getTratamento } from './tratamentosItems';
@@ -5,6 +6,10 @@ import { getTratamento } from './tratamentosItems';
 export default function Tratamentos() {
   const { item } = useParams();
   const tratamento = getTratamento(item);
+
+  useEffect(() => {
+    document.title = `GB Zincagem | ${tratamento.title}`;
+  }, [tratamento.title]);
 
   return (
     <>

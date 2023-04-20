@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import fachada from '../../assets/images/home-banner.webp';
 
 import './style.css';
 
-export default function Contato() {
+export default function QuemSomos() {
+  useEffect(() => {
+    document.title = 'GB Zincagem | Quem Somos';
+  }, []);
+
   return (
     <>
       <div className="qs-container">
