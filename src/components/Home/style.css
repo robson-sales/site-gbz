@@ -33,6 +33,12 @@
   color: white;
 }
 
+.text-over-left h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  color: white;
+}
+
 .button {
   width: 300px;
   height: 40px;
@@ -47,14 +53,18 @@
 }
 
 .button:hover{
-  background-color: blue;
+  background-color: #055131;;
 }
 
 @media (max-width: 1000px) {
   .text-over-left {
     top: 4.5rem;
     left: 4.5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .text-over-left h2 {
+    font-size: 2.5rem;
   }
 
   .banner-img img {
@@ -67,7 +77,11 @@
   .text-over-left {
     top: 7rem;
     left: 3rem;
-    font-size: 2.7rem;
+    font-size: 2rem;
+  }
+
+  .text-over-left h2 {
+    font-size: 2rem;
   }
 
   .banner {
