@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './style.css';
 import certificateEn from '../../assets/docs/GB Zincagem - ISO 9001.2015 - en.pdf';
 import certificatePt from '../../assets/docs/GB Zincagem - ISO 9001.2015 - pt-br.pdf';
+import politicaQualidade from '../../assets/docs/GB Zincagem - Politica de qualidade.pdf';
 import CarrosselQualidade from './Carrossel';
 
 export default function Qualidade() {
@@ -46,15 +47,27 @@ export default function Qualidade() {
             em nossos banhos, ensaios de corrosão (Salt Spray), emissão de
             certificados de qualidade e controle gráfico de desidrogenização.
           </p>
+          <br />
+          <h4>Documentos para download:</h4>
           <div className="certificate">
             <div className="certificate-download">
-              <a href={certificateEn} download="Certificado EN">
-                Baixar Certificado (EN)
+              <a href={certificateEn} download="GBZ - Certificado EN">
+                Certificado <br />
+                (Inglês)
               </a>
             </div>
             <div className="certificate-download">
-              <a href={certificatePt} download="Certificado PT-BR">
-                Baixar Certificado (PT-BR)
+              <a href={certificatePt} download="GBZ - Certificado PT-BR">
+                Certificado <br />
+                (Português)
+              </a>
+            </div>
+            <div className="certificate-download">
+              <a
+                href={politicaQualidade}
+                download="GBZ - Política de Qualidade"
+              >
+                Política de Qualidade
               </a>
             </div>
           </div>

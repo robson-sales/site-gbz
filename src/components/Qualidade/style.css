@@ -47,6 +47,7 @@
   background-color: var(--primary-color);
   border-radius: 5px;
   font-size: 1.7rem;
+  text-align: center;  
 }
 
 .certificate-download:hover {
@@ -58,6 +59,7 @@
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
+
 }
 
 @media (max-width: 700px) {
