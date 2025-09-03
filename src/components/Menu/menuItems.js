@@ -36,6 +36,10 @@ export const menuItems = [
         url: '/tratamentos/niquel',
       },
       {
+        title: 'Organometálico',
+        url: '/tratamentos/organo',
+      },
+      {
         title: 'Oxidação Negra',
         url: '/tratamentos/oxidacao-negra',
       },

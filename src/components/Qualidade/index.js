@@ -19,8 +19,8 @@ export default function Qualidade() {
         <div className="qualidade-txt">
           <h2>Qualidade</h2>
           <h4>
-            Somos certificados ISO 9001 e homologados nos padrões Petrobras,
-            Eólica, Aérea e Solar
+            Sistema de Gestão Certificado ISO 9001 e homologados nos padrões
+            Petrobrás, Eólica, Aérea e Solar
           </h4>
           <p>
             O processo de qualidade é fundamental para qualquer empresa que

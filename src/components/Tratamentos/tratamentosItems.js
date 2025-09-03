@@ -5,13 +5,14 @@ import estanho from '../../assets/images/estanho.webp';
 import fosfatizacao from '../../assets/images/fosfatizacao.webp';
 import niquel from '../../assets/images/niquel.webp';
 import oxidacao from '../../assets/images/oxidacao.webp';
-import xylan from '../../assets/images/xylan.webp';
+import xylan from '../../assets/images/xylan2.jpeg';
 import zincagemEletrolitica from '../../assets/images/zincagem-eletrolitica.webp';
 import zincagemFogo from '../../assets/images/zinco-fogo.webp';
 import zincoNiquel from '../../assets/images/zinco-niquel.webp';
 import decapagem from '../../assets/images/decapagem.webp';
 import desengraxe from '../../assets/images/desengraxe.webp';
 import jateamento from '../../assets/images/jateamento.webp';
+import organo from '../../assets/images/organo2.jpeg';
 
 export function getTratamento(item) {
   const tratamentosItems = [
@@ -90,6 +91,15 @@ export function getTratamento(item) {
       image: niquel,
     },
     {
+      route: 'organo',
+      title: 'Organometálico',
+      description: [
+        'O tratamento organometálico, ou zinco lamelar, é um processo de revestimento superficial que aplica uma camada de flocos de zinco e alumínio, oferecendo alta resistência à corrosão, especialmente a componentes de alta resistência e em ambientes agressivos.',
+        'Ele cria uma camada protetora e durável que melhora a resistência à corrosão, aumenta a aderência para tintas e revestimentos, e pode reduzir o atrito. É uma tecnologia avançada que confere aos materiais novas propriedades, prolongando sua vida útil e melhorando seu desempenho.',
+      ],
+      image: organo,
+    },
+    {
       route: 'oxidacao-negra',
       title: 'Oxidação Negra',
       description: [
@@ -98,11 +108,12 @@ export function getTratamento(item) {
       ],
       image: oxidacao,
     },
+
     {
       route: 'xylan',
       title: 'Xylan',
       description: [
-        'Revestimento de Xylan® são uma família de fluoporímeros desenvolvidos para o uso em diversos tipos de componentes OEM e fixadores para previvir a corrosão e aumentar a vida do produto.',
+        'Revestimento de Xylan® são uma família de fluoropolimeros desenvolvidos para o uso em diversos tipos de componentes OEM e fixadores para prevenir a corrosão e aumentar a vida do produto.',
         'A maioria dos revestimentos de Xylan® contém PTFE ou outros tipos de lubrificantes, e são aplicados em filmes finos.',
         'As propriedades dos revestimentos de Xylan são:',
         '• Lubrificação e controle de atrito',
